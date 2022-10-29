@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev src/app.ts"
+    "dev": "ts-node-dev --poll --inspect --transpile-only --ignore-watch nodes_modules --respawn src/app.ts"
   },
   "dependencies": {
     "express": "^4.18.2"
